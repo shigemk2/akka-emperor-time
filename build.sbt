@@ -9,6 +9,7 @@ scalaVersion := "2.11.6"
 libraryDependencies ++= Seq(
   jdbc,
   cache,
+  "com.typesafe.akka" %% "akka-stream-experimental" % "2.0.1",
   ws,
   specs2 % Test
 )
